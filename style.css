@@ -1,0 +1,71 @@
+body{
+    font-family:Roboto ; 
+}
+.slider1{
+    width: 698px;
+    height: 413px;
+    background-image: url('img/slide1.jpg') ;
+    }
+.slider2{
+    background-image: url('img/slide2.jpg') ;
+    width: 663px; 
+    height: 430px;
+}
+.slider3{
+    background-image: url('img/slide3.jpg') ;
+    width: 759px; 
+    height: 411px;
+
+}
+.maps{
+    background-image: url('img/maps.jpg') ;
+    width: 1440px;
+    height: 416px;
+    }
+.order{
+    background-image: url('img/order.png') ;
+    width: 15px;
+    height: 15px;
+}
+.product1{
+    background-image: url('img/product-1.jpg') ;
+    width: 300px ;
+    height: 146px ;
+
+}
+.product2{
+    background-image: url('img/product-2.jpg') ;
+    width: 300px ;
+    height: 146px ;
+
+}
+.product3{
+    background-image: url('img/product-3.jpg') ;
+    width: 300px ;
+    height: 146px ;
+
+}
+
+.htmlacademy{
+    background-position: -430px -4px ;
+	width: 199px;
+	height: 84px;
+}
+.partners .borodinski{
+    background-position: 0px -2px ;
+	width: 209px;
+	height: 84px;
+}
+a .pink{
+    background-position: -6px -102px ;
+	width: 185px;
+	height: 84px;
+}
+.partners .miska{
+    background-position: -226px -4px ;
+	width: 173px;
+	height: 84px;
+}
+li .partners{
+    background: url('img/sprites.png') no-repeat;
+}
