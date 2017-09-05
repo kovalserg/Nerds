@@ -1,71 +1,108 @@
 body{
-    font-family:Roboto ; 
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif; 
+}
+.container{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+header{
+    background-color: #eeeeee;
+    width: 1440px ;
+
+}
+li{
+    display:inline-flex;
+    margin-left: auto;
+    margin-right: 45px;
+}
+.order{
+    background-image: url('img/order.png') ;
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 15px;
+    margin-left: 200px;
+}
+h1{
+    font-size: 55px;
+    text-align: center;
+}
+.slider-item{
+    text-align: left;
 }
 .slider1{
-    width: 698px;
-    height: 413px;
+    width: 1160px;
+    height: 430px;
     background-image: url('img/slide1.jpg') ;
+    background-repeat: no-repeat;
     }
 .slider2{
     background-image: url('img/slide2.jpg') ;
-    width: 663px; 
+    background-repeat: no-repeat;
+    width: 1160px;
     height: 430px;
 }
 .slider3{
     background-image: url('img/slide3.jpg') ;
-    width: 759px; 
-    height: 411px;
-
+    background-repeat: no-repeat;
+    width: 1160px;
+    height: 430px;
+}
+.slider-item a{
+    padding: 20px 55px;
+    background-color: #FB565A;
+    color: white;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+.contacts{
+    background-color: white;
+    width:320px ; 
+    height:310px ;
+    text-align: center;
+    line-height:20px;
+    padding: 55px 75px 47px 50px;
+}
+.contacts .cnt{
+    padding: 20px 45px;
+    background-color: #FB565A;
+    color: white;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-align: center;
 }
 .maps{
     background-image: url('img/maps.jpg') ;
     width: 1440px;
     height: 416px;
-    }
-.order{
-    background-image: url('img/order.png') ;
-    width: 15px;
-    height: 15px;
 }
 .product1{
     background-image: url('img/product-1.jpg') ;
     width: 300px ;
     height: 146px ;
-
 }
 .product2{
     background-image: url('img/product-2.jpg') ;
     width: 300px ;
     height: 146px ;
-
 }
 .product3{
     background-image: url('img/product-3.jpg') ;
     width: 300px ;
     height: 146px ;
+}
+.product a{
+    padding: 20px 40px;
+    border-radius: 3px;
+    text-transform: uppercase;
 
 }
-
-.htmlacademy{
-    background-position: -430px -4px ;
-	width: 199px;
-	height: 84px;
+.product1 a{
+    background-color: #FB565A;
 }
-.partners .borodinski{
-    background-position: 0px -2px ;
-	width: 209px;
-	height: 84px;
+.product2 a{
+    background-color: #00CA74;
 }
-a .pink{
-    background-position: -6px -102px ;
-	width: 185px;
-	height: 84px;
-}
-.partners .miska{
-    background-position: -226px -4px ;
-	width: 173px;
-	height: 84px;
-}
-li .partners{
-    background: url('img/sprites.png') no-repeat;
+.product3 a{
+    background-color: #EFC84A;
 }
