@@ -469,10 +469,24 @@ header{
     display:inline-block;
     margin-right: 47px;
 }
+.main-nav li:last-child{
+  margin-right: 0;
+}
+.main-nav ul {
+  font-size: 0; 
+  margin: 0;
+  padding: 0;
+}
 .main-nav{
   margin-top: 65px;
   margin-left: 170px;
   float: left; 
+}
+li.active{
+  border-bottom: 2px solid red; 
+}
+.main-nav a:hover {
+  border-bottom: 2px solid red; 
 }
 .main-nav a{
   text-decoration: none;
@@ -566,7 +580,20 @@ h2{
   margin-left: 45px;
 }
 .futures-item ul{
+  line-height: 30px;
   margin-left: 40px;
+  list-style-type: none;
+}
+.futures-item li::before{
+  content: "-";
+  width: 25px;
+  height: 2px;
+  position: absolute;
+  background: #fb565a;
+  color: transparent;
+  margin-top: 12px;
+  margin-left: -40px;
+
 }
 .futures span{
   font-size: 45px;
@@ -574,6 +601,7 @@ h2{
 }
 .futures-item{
   width: 60%;
+  position: relative;
   float: left;
 }
 .statistics{
@@ -685,6 +713,10 @@ h3{
   display: inline-block;
   width: 100%;
   margin: 80px auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  border-top: 2px solid #eeeeee;
+  border-bottom: 2px solid #eeeeee;
   clear: both;
 }
 .partners a{
