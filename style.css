@@ -474,8 +474,8 @@ header{
 .main-nav{
   width: 80%;
   margin-top: 80px;
-  margin-left: 200px;
-  margin-bottom:95px;  
+  margin-left: 110px;
+  margin-bottom:40px;  
 }
 .main-nav ul {
   display: flex;
@@ -483,9 +483,6 @@ header{
   font-size: 0; 
   margin: 0;
   padding: 0;
-}
-.main-nav li{
-    margin-right: 45px;
 }
 .main-nav a:hover {
   border-bottom: 2px solid red; 
@@ -497,13 +494,16 @@ header{
   font-size: 15px;
   font-weight: 500;
 }
-.order{
+li.order{
     background-image: url('img/order.png') ;
     background-repeat: no-repeat;
-    width: 15px;
-    height: 15px;
-    margin-left: 170px;
     padding-left: 35px;
+}
+.main-nav li{
+  margin-left: 45px;
+}
+.main-nav li:last-child{
+  margin-left: 250px;
 }
 button{
   border: none;
@@ -587,7 +587,7 @@ h5{
   position: absolute;
   height: 17px;
   width: 17px;
-  top:14px;
+  bottom:44px;
   background-color: white;
   border-radius: 50%;
   cursor: pointer;
@@ -598,7 +598,7 @@ h5{
   position: absolute;
   border: 2px solid #A6A6A6;
   border-radius: 50%;
-  top:18px;
+  bottom:48px;
   left:29px;
   width: 5px;
   height: 5px;
@@ -609,7 +609,7 @@ h5{
   position: absolute;
   border: 2px solid #A6A6A6;
   border-radius: 50%;
-  top:18px;
+  bottom:48px;
   left:58px;
   width: 5px;
   height: 5px;
@@ -620,7 +620,7 @@ h5{
   position: absolute;
   border: 2px solid #A6A6A6;
   border-radius: 50%;
-  top:18px;
+  bottom:48px;
   left:86.8px;
   width: 5px;
   height: 5px;
@@ -965,15 +965,22 @@ form.modal{
   padding-bottom: 115px;
   margin:0;
 }
+.flex-container{
+  display: flex;
+  justify-content: space-around;
+}
 .catalog-items{
-  width: 70% ;
-  vertical-align:top;
-  float: right;
+  width: 65% ;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
 }
 .catalog-item{
-  margin-right: 40px;
   margin-bottom: 40px;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   position: relative;
 }
 .catalog-item:hover .title{
@@ -983,17 +990,19 @@ form.modal{
   display: block;
 }
 .catalog-filter{
-  margin-top: 60px;
+  margin-top: 50px;
   line-height: 40px;
-  width: 30%;
-  float: left;
+  width: 35%;
+  display: flex;
+  flex-direction: column; 
 }
 .sorting{
+  display: flex;
+  justify-content: space-between;
   margin-top:60px;
   margin-bottom: 60px;
-  width: 70%;
+  width: 100%;
   text-transform: uppercase;
-  float: left;
 }
 .sorting h4{
   margin: 0;
@@ -1003,8 +1012,7 @@ form.modal{
 }
 .sorting button{
   color: #CACACA;
-  text-transform: uppercase;
-  padding-right:1.5%; 
+  text-transform: uppercase; 
 }
 .sorting .activ{
   color:black;
@@ -1061,7 +1069,7 @@ form.modal{
   height:38px ;
 }
 form.filter{
-  margin-top:60px;
+  margin-top:15px;
 }
 .filter h4{
   margin-bottom: 10px;
@@ -1181,7 +1189,7 @@ button.ch-btn{
   background-color: #EEEEEE;
   border: 1px solid #EEEEEE;
   text-transform: uppercase;
-  font-weight: medium;
+  font-weight: 600;
   border-radius:3px;
   padding: 20px 90px;
   color: black;
@@ -1190,6 +1198,7 @@ button.ch-btn{
 .pagination{
   margin-top: 60px;
   margin-bottom: 60px;
+  font-weight: 500;
 }
 .pagination .activ{
   background-color: white;
