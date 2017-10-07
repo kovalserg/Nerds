@@ -464,6 +464,7 @@ header{
 .main-menu{
   display:flex;
   justify-content: space-around;
+  align-items: center;
 }
 .header-logo{
   width: 20%;
@@ -879,21 +880,17 @@ footer h2{
 .footer-social a{
   background-repeat: no-repeat;
   display:inline-block;
+  width: 90px;
+  height: 90px;
 }
 a.social-btn-vk{
   background-image:url('img/vk-icon.png');
-  width: 90px;
-  height: 90px ;
 }
 a.social-btn-fb{
   background-image:url('img/fb-icon.png');
-  width: 90px;
-  height: 90px;
 }
 a.social-btn-inst{
   background-image:url('img/insta-icon.png');
-  width: 90px;
-  height: 90px;
 }
 form.modal{
   width: 960px;
@@ -956,6 +953,9 @@ form.modal{
   position: absolute;
   bottom: 50px;
   left: 80px;
+}
+.open.modal{
+  display: block;
 }
 .catalog h1{
   display: flex;
