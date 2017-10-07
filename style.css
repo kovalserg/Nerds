@@ -895,9 +895,12 @@ a.social-btn-inst{
 form.modal{
   width: 960px;
   height: 590px;
+  background-color: white;
   padding: 85px 80px;
   box-shadow: 0 0 20px;
-  position: relative;
+  position: fixed;
+	left: 20%;
+	top: 4%;
   display: none;
 }
 .modal h2{
