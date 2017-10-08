@@ -893,11 +893,11 @@ a.social-btn-inst{
   background-image:url('img/insta-icon.png');
 }
 form.modal{
-  width: 960px;
+  width: 71%;
   height: 590px;
   background-color: white;
   padding: 85px 80px;
-  box-shadow: 0 0 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.7);
   position: fixed;
 	left: 20%;
 	top: 4%;
