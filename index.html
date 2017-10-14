@@ -7,7 +7,7 @@
     <meta name="description" content="Магазин готовых шаблонов">
     <meta name="keywords" content="магазин шотовых шаблонов,шаблоны,магазин шаблонов,красивые шаблоны,разработка веб-сайтов,разработка мобильных приложений,слайдшоу для корпоративных презентаций,видео для корпоративных презентаций,дизайн мобильных приложений">
     <title>«Nёrds»</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="style-dist.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
 </head>
 <body>
@@ -156,28 +156,26 @@
     <form class="modal" action="" method="">
         <h2>Напишите нам</h2>
         <div class="names forms">
-            <label for="name-field">
-                <h5>Ваше имя:</h5>
-                <input type="text" name="name" value="" placeholder="Представьтесь,пожалуйста" id="name-field">
-            </label>
+            <h5>Ваше имя:</h5>
+            <input type="text" name="names" value="" placeholder="Представьтесь,пожалуйста" id="name-field">
+            <label for="name-field"></label>
         </div>
         <div class="email forms">
-            <label for="email-field">
-                <h5>Ваш e-mail:</h5>
-                <input type="email" name="email:" value="" placeholder="Для отправки ответа" id="email-field">
-            </label>
+            <h5>Ваш e-mail:</h5>
+            <input type="email" name="email" value="" placeholder="Для отправки ответа" id="email-field">
+            <label for="email-field"></label>
         </div>
         <div class="comment">
-            <label for="comment-field">
-                <h5>Текст письма:</h5>
-                <input name="comment" id="comment-field" placeholder="В свободной форме"></input>
-            </label>
+            <h5>Текст письма:</h5>
+            <input name="comment" id="comment-field" placeholder="В свободной форме"></input>
+            <label for="comment-field"></label>
         <div class="clear"></div>
         </div>
         <button class="btn-submit" type="submit">Отправить</button>
         <button class="btn-closed" type="closed">X</button>
+        <span>Ошибка !!! Заполните пустые поля !</span>
     </form>
-    <script src="script.js"></script>
+    <script src="script-dist.js"></script>
 </body>
 </html>
 
